@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت نمونه سام کریمی </title>
+    <style>
+        /* ریست استایل ها */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f0f4f8; /* رنگ آبی بسیار روشن */
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: #4CAF50;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .navbar {
+            background: #2c3e50;
+        }
+        
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar a:hover {
+            background: #4CAF50;
+        }
+        
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- محتوای سایت -->
+    <header class="header">
+        <h1>سایت سام کریمی</h1>
+    </header>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">خانه</a></li>
+            <li><a href="#">محصولات</a></li>
+            <li><a href="#">خدمات</a></li>
+            <li><a href="#">تماس</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main-content">
+        <section class="card">
+            <h2>کارت اول</h2>
+            <p>این یک متن نمونه است. برای تست ظاهر سایت.</p>
+        </section>
+        
+        <section class="card">
+            <h2>کارت دوم</h2>
+            <p>متن نمونه برای کارت دوم </p>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p><h5> ممنون از شما</h5></p>
+    </footer>
+</body>
+</html>
